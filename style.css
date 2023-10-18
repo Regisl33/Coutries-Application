@@ -1,0 +1,50 @@
+.filter-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+input {
+  margin: 20px auto;
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+  transition: 0.2s;
+}
+input:focus {
+  border-radius: 30px;
+  background: rgb(238, 238, 238);
+}
+.range-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input[type="range"] {
+  width: 250px;
+  margin: 0 10px 10px 0;
+}
+.range-container span {
+  font-size: 1.2rem;
+  transform: translateY(-3px);
+}
+.countries-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  flex: 1 0 20%;
+  background: rgb(29, 29, 29);
+  color: whitesmoke;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin: 10px;
+}
+img{
+  width: 250px;
+  height: 175px;
+}
