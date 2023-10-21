@@ -44,6 +44,10 @@ input[type="range"] {
   padding: 25px;
   margin: 10px;
 }
+.card:hover{
+  opacity: 0.9;
+  transform: scale(102%);
+}
 img{
   width: 250px;
   height: 175px;
